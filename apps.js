@@ -1,3 +1,4 @@
+
 let diceArray = [];
 
 const max = 6;
@@ -16,10 +17,10 @@ document.body.appendChild(divContainer);
 
 class Die {
     constructor() {
-        this.div = document.createElement("div");
-        this.div.classList.add("dice");
+        this.dieDiv = document.createElement("div");
+        this.dieDie.className = "die"
         this.value = randomVal(1,6);
-        divContainer.appendChild(this.div);
+        document.body.appendChild(this.dieDiv);
         this.div.addEventListener("click", () => {
             this.roll();
             
