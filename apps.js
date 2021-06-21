@@ -30,7 +30,7 @@ class Die {
         })
     }
     roll() {
-        this.div.value = randomVal(1,6);
+        this.dieDiv.value = randomVal(1,6);
     }
 }
 function insertSquare() {
