@@ -1,9 +1,7 @@
-Square{
-    color: pink 
-
-}
-
-.div {
+.die {
     height: 100px;
-    width: 100px;
+    width: 100px:
+    color: pink;
+    display: inline-block;
 }
+
